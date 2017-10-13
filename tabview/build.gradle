@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'TabView'
+    bintrayName = 'TabView'
+
+    publishedGroupId = 'com.innovoid'
+    libraryName = 'TabView'
+    artifact = 'TabView'
+
+    libraryDescription = 'A widget to create Tabs.'
+
+    siteUrl = 'https://github.com/ptyagicodecamp/webview-overlay'
+    gitUrl = 'https://github.com/ptyagicodecamp/webview-overlay.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'hammadmukhtar'
+    developerName = 'Hammad Mukhtar'
+    developerEmail = 'hammad2125@email.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:26.+'
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="TabView">
+        <attr name="itemLayout" format="reference" />
+        <attr name="itemSelectedBackground" format="reference" />
+        <attr name="itemUnselectedBackground" format="reference" />
+        <attr name="itemLayoutTextViewId" format="reference" />
+        <attr name="items" format="reference" />
+        <attr name="itemWidthEqual" format="boolean" />
+        <attr name="itemSelectedTextColor" format="color" />
+        <attr name="itemsTextColor" format="color" />
+        <attr name="itemSelected" format="integer" />
+    </declare-styleable>
+</resources>

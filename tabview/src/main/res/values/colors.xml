@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tabview_white">#ffffff</color>
+    <color name="tabview_black">#000000</color>
+    <color name="tabview_bg">#FAFBFB</color>
+    <color name="tabview_bg_stoke">#E0E0E0</color>
+    <color name="tabview_bg_light">#e1e2e9</color>
+    <color name="tabview_orange">#EB5F2E</color>
+    <color name="tabview_light_grey">#E5E5E5</color>
+    <color name="tabview_grey">#9D9D9D</color>
+    <color name="tabview_selected_item_color">#007C92</color>
+</resources>

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'TabView'
+    bintrayRepo = 'maven'
     bintrayName = 'TabView'
 
     publishedGroupId = 'com.innovoid'
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/hammadmukhtar/tabview'
     gitUrl = 'https://github.com/hammadmukhtar/tabview.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.0'
 
     developerId = 'hammadmukhtar'
     developerName = 'Hammad Mukhtar'
@@ -22,6 +22,8 @@ ext {
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
+
+    publish = true
 }
 
 android {

@@ -6,12 +6,12 @@ ext {
 
     publishedGroupId = 'com.innovoid'
     libraryName = 'TabView'
-    artifact = 'TabView'
+    artifact = 'tabview'
 
     libraryDescription = 'A widget to create Tabs.'
 
-    siteUrl = 'https://github.com/ptyagicodecamp/webview-overlay'
-    gitUrl = 'https://github.com/ptyagicodecamp/webview-overlay.git'
+    siteUrl = 'https://github.com/hammadmukhtar/tabview'
+    gitUrl = 'https://github.com/hammadmukhtar/tabview.git'
 
     libraryVersion = '1.0.0'
 

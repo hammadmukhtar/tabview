@@ -4,8 +4,9 @@
     android:id="@+id/tabsview_tv"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:textSize="13sp"
+    android:textSize="17sp"
     android:textColor="@color/tabview_grey"
     android:gravity="center"
     android:background="@drawable/tabsview_unselected"
-    android:layout_gravity="center" />
+    android:layout_gravity="center"
+    android:textStyle="bold"/>

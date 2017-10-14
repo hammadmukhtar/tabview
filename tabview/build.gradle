@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/hammadmukhtar/tabview'
     gitUrl = 'https://github.com/hammadmukhtar/tabview.git'
 
-    libraryVersion = '1.0.5'
+    libraryVersion = '1.0.6'
 
     developerId = 'hammadmukhtar'
     developerName = 'Hammad Mukhtar'
@@ -33,8 +33,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 4
-        versionName "1.3"
+        versionCode 5
+        versionName "1.4"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 

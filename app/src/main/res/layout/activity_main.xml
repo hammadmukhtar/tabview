@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:scrollbars="none"
+    >
+<LinearLayout
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemSelected="1"
+        app:itemLayout="@layout/tabsview_item2"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="1"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_orange"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="false"
+        app:itemsTextColor="#FFF"
+        app:itemUnselectedBackground="@drawable/custom_bg_tabs_primary"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:itemSelectedTextColor="#FFF"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_primary"
+        app:itemSelected="1"
+        app:itemLayout="@layout/tabsview_item2"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="3"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_orange"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true" />
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:items="@array/residence_types"
+        app:itemWidthEqual="true"
+        app:itemSelectedTextColor="@color/tabview_orange"
+        app:itemLayout="@layout/tabsview_item3"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_orange"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true"
+        app:items="@array/residence_types" />
+
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemSelected="2"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_primary"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true"
+        app:items="@array/residence_types"
+        app:itemLayout="@layout/tabsview_item2"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="8"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_orange"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="false"
+        app:items="@array/units" />
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="7"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_primary"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true"
+        app:items="@array/units" />
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="6"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_orange"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true"
+        app:items="@array/units"
+        app:itemsTextColor="#FFF"
+        app:itemUnselectedBackground="@drawable/custom_bg_tabs_primary"/>
+
+    <com.innovoid.TabView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemSelected="6"
+        app:itemSelectedBackground="@drawable/custom_bg_tabs_primary"
+        app:itemSelectedTextColor="#FFF"
+        app:itemWidthEqual="true"
+        app:items="@array/units"
+        app:itemsTextColor="#FFF"
+        app:itemUnselectedBackground="@drawable/custom_bg_tabs_orange"/>
+</LinearLayout>
+</ScrollView>

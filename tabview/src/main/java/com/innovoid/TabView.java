@@ -64,7 +64,7 @@ public class TabView extends LinearLayout {
         int totalCharacters = 0;
         for(int i = 0 ; i < list.size() ; i++){
             totalCharacters += list.get(i).length();
-            if(list.get(i).length() == 1)
+            if(list.get(i).length() <= 2)
                 totalCharacters++;
         }
         if(selectedIndex > list.size() - 1)
@@ -88,7 +88,7 @@ public class TabView extends LinearLayout {
                 param = new LayoutParams(
                         0,
                         LayoutParams.MATCH_PARENT,
-                        ((list.get(i).length() == 1 ? ((float) list.get(i).length() + 1)
+                        ((list.get(i).length() <= 2 ? ((float) list.get(i).length() + 1)
                                 : ((float) list.get(i).length()))/((float) totalCharacters))
                 );
             view.setLayoutParams(param);

@@ -9,9 +9,25 @@
     android:scrollbars="none"
     >
 <LinearLayout
-
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <com.innovoid.TabView
+        android:id="@+id/tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemLayout="@layout/tabsview_item"
+        app:itemLayoutTextViewId="@+id/tabsview_tv"
+        app:items="@array/dummy_items"
+        app:itemSelected="1"
+        app:itemsTextColor="#9D9D9D"
+        app:itemSelectedTextColor="#007C92"
+        app:itemSelectedBackground="@drawable/tabsview_selected"
+        app:itemUnselectedBackground="@drawable/tabsview_unselected"
+        app:itemWidthEqual="false"
+        android:padding="0.5dp"
+        android:layout_margin="10dp"/>
 
     <com.innovoid.TabView
         android:layout_width="match_parent"

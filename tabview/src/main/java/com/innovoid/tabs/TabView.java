@@ -2,7 +2,6 @@ package com.innovoid.tabs;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -42,8 +41,8 @@ public class TabView extends LinearLayout {
             items = a.getResourceId(R.styleable.TabView_items, R.array.dummy_items);
 
             itemWidthEqual = a.getBoolean(R.styleable.TabView_itemWidthEqual, false);
-            itemSelectedColor = a.getColor(R.styleable.TabView_itemSelectedTextColor, ContextCompat.getColor(context,R.color.tabview_selected_item_color));
-            itemsColor = a.getColor(R.styleable.TabView_itemsTextColor, ContextCompat.getColor(context,R.color.tabview_grey));
+            itemSelectedColor = a.getColor(R.styleable.TabView_itemSelectedTextColor, getContext().getResources().getColor(R.color.tabview_selected_item_color));
+            itemsColor = a.getColor(R.styleable.TabView_itemsTextColor, getContext().getResources().getColor(R.color.tabview_grey));
             selectedIndex = a.getInteger(R.styleable.TabView_itemSelected, 1) - 1;
             list = Arrays.asList(context.getResources().getStringArray(items));
         } finally {

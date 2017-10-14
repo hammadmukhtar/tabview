@@ -1,4 +1,4 @@
-package com.innovoid.tabs;
+package com.innovoid;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.innovoid.tabs.R;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,7 +1,26 @@
 # Tabview
-A widget to create Tabs.
+A widget to create custom Tabs.
 
 ![Screenshot 1](/app/src/main/res/raw/ss_1.png) ![Screenshot 2](/app/src/main/res/raw/ss_2.png)
+
+## Set-up
+
+#### Download 
+[ ![Download](https://api.bintray.com/packages/hammadmukhtar/maven/TabView/images/download.svg) ](https://bintray.com/hammadmukhtar/maven/TabView/_latestVersion)
+
+#### Grab via Gradle:
+```groovy
+compile 'com.innovoid:tabview:1.0.7'
+```
+#### Maven:
+```xml
+<dependency>
+  <groupId>com.innovoid</groupId>
+  <artifactId>tabview</artifactId>
+  <version>1.0.7</version>
+  <type>pom</type>
+</dependency>
+```
 
 ## Usage
 #### Using with default options
@@ -30,7 +49,7 @@ A widget to create Tabs.
   android:layout_margin="10dp"/>
 ```
 
-#### Programmatic tabs manipulation
+#### Programmatically
 ```java
 /* Set a callback on tab item click */
 TabView tabview = findViewById(R.id.tabview);

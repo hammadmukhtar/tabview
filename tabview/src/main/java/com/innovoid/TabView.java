@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.innovoid.tabs.R;
+import com.innovoid.tabview.R;
 
 import java.util.Arrays;
 import java.util.List;

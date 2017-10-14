@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/hammadmukhtar/tabview'
     gitUrl = 'https://github.com/hammadmukhtar/tabview.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'hammadmukhtar'
     developerName = 'Hammad Mukhtar'
@@ -48,7 +48,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.+'
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
